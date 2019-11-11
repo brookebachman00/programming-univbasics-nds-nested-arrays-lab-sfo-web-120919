@@ -40,8 +40,8 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  matrix_lookup[row][column] = new_value
-  return matrix_lookup
+  matrix[row][column] = new_value
+  return matrix
   # Update the matrix location at row and column to have the value of new_value
   # Return the updated matrix
 end
